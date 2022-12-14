@@ -1,5 +1,5 @@
 <template>
-  <section class="reviews-container">
+  <section class="reviews-container full">
     <div class="review" v-for="review in reviews">
       <p>{{review.subTxt}}</p>
       <div class="profile-container">

@@ -1,6 +1,6 @@
 <template>
   <section class="categories-container">
-    <div v-for="category in categories">
+    <div class="category" v-for="category in categories">
       <span v-icon="category.svg"></span>
       <h1>{{category.name}}</h1>
       <p class="sub-txt">{{category.subTxt}}</p>

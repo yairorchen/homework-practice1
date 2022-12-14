@@ -3,7 +3,32 @@
 .main-hero{
     display: flex;
     flex-direction: column;
-        justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+            width: 304px;
+        }
+    >*{
+        margin-top: 34px;
+        text-align: center;
+    }
+    h1{
+        font-family: "Raleway - Bold";
+        font-size: 40px;
+        max-width: 734px;
+        @media screen and (max-width: 700px) {
+            font-size: 24px;
+
+            }
+    }
+    p{
+        font-family: "Open Sans - Regular";
+        font-size: 20px;
+        min-width: 589px;
+        @media screen and (max-width: 700px) {
+                font-size: 14px;
+                min-width: 304px;
+            }
+    }
 .intro-img-container{
     width:720px;
     height: 534px;
@@ -11,22 +36,73 @@
         width:100%;
         height: 100%;
     }
+          @media screen and (max-width: 700px) {
+            width: 304px;
+            height: 225px;
+          }
+}
+.curvy{
+    display:none;
+}
+button{
+    width:280px;
+    height: 56px;
+    border-radius: 50px;
+background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+font-family: "Raleway - Bold";
+font-size: 16px;
 }
 }
 .secondary-hero{
     display: flex;
+    margin-top: 137px;
+    background-color: #181f2b;
+    @media screen and (max-width: 700px) {
+           flex-direction: column;
+        }
  .secondary-hero-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-inline-start: 57px;
+        @media screen and (max-width: 700px) {
+            margin-inline-start: 0;
+        
+            }
  }
 .second-img-container{
     width:615px;
     height: 464px;
+    @media screen and (max-width: 700px) {
+        width: 304px;
+        height: 230px;
+        margin-bottom: 47px;
+        }
     img{
         width:100%;
         height: 100%;
     }
 }
+ h1 {
+     font-family: "Raleway - Bold";
+     font-size: 40px;
+     max-width: 434px;
+     margin-bottom: 20px;
+        @media screen and (max-width: 700px) {
+                max-width: 304px;
+               
+            }
+ }
+
+ p {
+     font-family: "Open Sans - Regular";
+     font-size: 16px;
+     min-width: 490px;
+    @media screen and (max-width: 700px) {
+        min-width: 0;
+            max-width: 304px;
+    
+    }
+ }
 }
 }

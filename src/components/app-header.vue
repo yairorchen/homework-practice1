@@ -2,14 +2,10 @@
   <header class="app-header full main-container">
     <div class="header-container flex space-between align-center">
       <div class="logo-container">
-      <span v-icon="'logo'"></span>
+      <span  v-icon="'logo'"></span>
       </div>
       <div class="action-container">
-        <button
-          @click="isOpen = !isOpen"
-          class="icon menu-btn"
-          v-icon="'bars'"
-        ></button>
+
       </div>
       <app-nav :isOpen="isOpen" @toggle-open="isOpen = !isOpen"></app-nav>
     </div>

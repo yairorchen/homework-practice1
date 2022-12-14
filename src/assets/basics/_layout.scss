@@ -15,7 +15,10 @@
       grid-column: 1 /-1;
     }
   }
+    @media screen and (max-width: 700px) {
+    grid-template-columns: 20px 1fr 20px;
 
+    }
   // @include for-narrow-layout {
   //   grid-template-columns:
   //     minmax(20px, 1fr)

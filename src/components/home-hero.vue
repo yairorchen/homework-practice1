@@ -12,10 +12,14 @@
       <p>Fylo stores all your most important files in one secure location. Access them wherever you need , share and collaborate with friends family , and co-workers.</p>
       </div>
       <button>Get Started</button>
+        <!-- <span class="curvy" v-icon="'curvyLayout'"></span> -->
     </section>
+
+
+
     <section class="secondary-hero" v-if="(type === 'secondary')">
       <div class="second-img-container">
-      <img src="../../src/assets/images/2c8c8606cb71da6be138b716e1fde525c3090fec.png" />
+      <!-- <img src="../../src/assets/images/2c8c8606cb71da6be138b716e1fde525c3090fec.png" /> -->
       </div>
       <div class="secondary-hero-content">
       <h1> Stay productive, wherever you are</h1>
