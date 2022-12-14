@@ -1,0 +1,14 @@
+.categories-container{
+  margin-top: 180px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  >*{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sub-txt{
+      text-align: center;
+    }
+  }
+}

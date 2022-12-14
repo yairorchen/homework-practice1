@@ -1,0 +1,12 @@
+.app-header {
+      height: 125px;
+  .header-container {
+    // position: relative;
+
+    @media screen and (min-width: 500px) {
+      .menu-btn {
+        display: none;
+      }
+    }
+  }
+}

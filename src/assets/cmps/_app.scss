@@ -1,0 +1,26 @@
+#app {
+  height: 100%;
+}
+.app-container {
+  &.main-container {
+    padding: 0;
+    // height: 100%;
+    grid-template-rows: 125px 1fr 517px;
+
+    main {
+      overflow-y: auto;
+      background-color: #1b2330;
+    }
+
+    header {
+      background-color: #1b2330;
+    }
+
+    footer {
+    background-color: #0b1524;
+    }
+    main {
+      padding: 1em 0;
+    }
+  }
+}

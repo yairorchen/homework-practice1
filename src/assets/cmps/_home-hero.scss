@@ -1,0 +1,32 @@
+
+.hero-container{
+.main-hero{
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+.intro-img-container{
+    width:720px;
+    height: 534px;
+    img{
+        width:100%;
+        height: 100%;
+    }
+}
+}
+.secondary-hero{
+    display: flex;
+ .secondary-hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+.second-img-container{
+    width:615px;
+    height: 464px;
+    img{
+        width:100%;
+        height: 100%;
+    }
+}
+}
+}
